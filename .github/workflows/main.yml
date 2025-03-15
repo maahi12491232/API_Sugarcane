@@ -25,5 +25,3 @@ jobs:
 
     - name: Deploy to Streamlit
       run: streamlit run app.py
-      env:
-        STREAMLIT_API_TOKEN: ${{ secrets.STREAMLIT_API_TOKEN }}
